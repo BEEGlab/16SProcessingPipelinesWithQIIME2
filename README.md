@@ -20,7 +20,8 @@ source ./fastq_manifest_creator_MultiJobSubmission.sh
 ### Calls on Metadata_filecreate.sh and Metadata.sh scripts.
 source ./Metadata_MultiJobSubmission.sh
 
-## Submit to Qiime 2. Classifiers for SILVA and Greengages:
+# Now that all input files are generated, submit to Qiime 2. 
+## Classifiers for SILVA and Greengages:
 ### silva-138-99-nb-classifier.qza from https://data.qiime2.org/2020.2/common/silva-138-99-nb-classifier.qza
 ### gg-13-8-99-nb-classifier.qza from https://data.QIIME2.org/2020.2/common/gg-13-8-99-nb-classifier.qza
 

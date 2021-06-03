@@ -22,7 +22,7 @@ source ./Metadata_MultiJobSubmission.sh
 
 ## Submit to Qiime 2. Classifiers for SILVA and Greengages:
 ### silva-138-99-nb-classifier.qza from https://data.qiime2.org/2020.2/common/silva-138-99-nb-classifier.qza
-### gg-13-8-99-nb-classifier.qza from https://data.QIIME 2.org/2020.2/common/gg-13-8-99-nb-classifier.qza
+### gg-13-8-99-nb-classifier.qza from https://data.QIIME2.org/2020.2/common/gg-13-8-99-nb-classifier.qza
 
 ## 6. Runs submitted to DADA2 as single-end. May be considered single-end either because paired-end sequences were merged previously or they are true single-end (ie just R1 or just R2 sequences). 
 ### Calls on Qiime2_quality_dada2_tree_tax_biom_SE.sh.

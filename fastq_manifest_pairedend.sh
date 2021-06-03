@@ -1,0 +1,14 @@
+#!/bin/bash
+
+SEQDIR=$1
+MOCK=$2
+SAMPLE=$3
+MOCKSAMPLE=$4
+PARAMNAMES=$5
+PIPELINE=$6
+
+cd $SEQDIR
+
+echo "$SAMPLE	$SEQDIR/${MOCKSAMPLE}_R1.$PARAMNAMES.fastq.gz	$SEQDIR/${MOCKSAMPLE}_R2.$PARAMNAMES.fastq.gz" >> fastq_manifest_$MOCK.$PIPELINE.txt
+
+cd /Mocks/

@@ -1,7 +1,8 @@
 # 16SProcessingPipelinesWithQIIME2: Mock community analysis scripts
 
 The scripts in this folder are associated with the following manuscript:
-Dacey, D.P., Chain, F.J.J. **Concatenation of paired-end reads improves taxonomic classification of amplicons for profiling microbial communities**. 
+Dacey, D.P., Chain, F.J.J. 
+**Concatenation of paired-end reads improves taxonomic classification of amplicons for profiling microbial communities**. 
 BMC Bioinformatics 22, 493 (2021). https://doi.org/10.1186/s12859-021-04410-2
 
 ## 1. Check raw quality scores, trim, merge, and concatenate sequences before Qiime 2 submission. 
